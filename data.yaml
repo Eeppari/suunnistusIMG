@@ -1,0 +1,7 @@
+# Edit TANVOM_dataset below if you extracted the dataset somewhere else
+train: TANVOM_dataset/processed/tiles_512_s128_v1/train/images
+val: TANVOM_dataset/processed/tiles_512_s128_v1/val/images
+
+# Must match CLASS_SOURCES order in convert_masks_to_yolo.py
+nc: 6
+names: [contour, road_black, rare_107, rare_108, overlay_407, overlay_409]
